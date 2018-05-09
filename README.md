@@ -8,4 +8,5 @@ Check no phiX in assembly.fasta
 ```
 blastn -query FASTA/AF176034.fasta -subject assembly.fasta -out blast.txt
 ```
+Web Blast (NCBI) each nodes for identity with phiX 174. Nodes can easily be selected through Bangdage at http://rrwick.github.io/Bandage/
 

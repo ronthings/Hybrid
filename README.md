@@ -1,12 +1,22 @@
 # Hybrid
-Hybrid assembly for Oxford Nanopore Reads - Bacteria genome 
+
+
+# Hybrid assembly for Oxford Nanopore Reads - Bacteria genome 
+
 Requirements:
-     Python v3.6.4
-     Albacore v2.1.10
-     Conda
-     Porechop
-     Blast
-     Unicycler
+
+Python v3.6.4
+
+Albacore v2.1.10
+
+Conda
+
+Porechop
+
+Blast
+
+Unicycler
+
 All work done on Virtual Machine (CLIMB) Birmingham 
 Log in address: 147.188.173.240
 
@@ -29,7 +39,7 @@ porechop -i /media/deepdata/barcode08/FASTQ -b nanochoped/
 
 My transfer command is:
 ```
-scp oye@147.188.173.240:/home/oye/unicyclernano/assembly.fasta .
+scp oye@147.188.173.240:/home/oye/unicyclernano/assembly.fasta 
 ```
 Check no phi X174 in assembly.fasta
 ```

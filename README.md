@@ -23,7 +23,9 @@ Log in address: 147.188.173.240
 Albacore is an ONT's official command-line basecaller, an account is required to log in.
 Albacore basecalling command is:
 ```
-read_fast5_basecaller.exe --flowcell FLO-MIN106 --kit SQK-LSK108 --barcoding --output_format fast5,fastq --input c:\data\reads\20180308_2115_ --save_path d:\Albacore_Output\JCT_Nanopore_Run1_080318c --worker_threads 8 --recursive
+read_fast5_basecaller.exe --flowcell FLO-MIN106 --kit SQK-LSK108 --barcoding --output_format 
+fast5,fastq --input c:\data\reads\20180308_2115_ 
+--save_path d:\Albacore_Output\JCT_Nanopore_Run1_080318c --worker_threads 8 --recursive
 ```
 Porechop is a tool from Oxford Nanopore for finding and removing adapters.
 Porechop can be install from conda but need to create an environment first

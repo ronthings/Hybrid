@@ -1,4 +1,4 @@
-# Hybrid
+# Hybrid assembly
 
 
 # Hybrid assembly for Oxford Nanopore Reads - Bacteria genome 
